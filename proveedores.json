@@ -1,0 +1,10 @@
+{
+    "_id" : "ObjectId",
+    "nombre" : "string",
+    "celular" : "int",
+    "ubicacion" : "string",
+    "ordenes" : [{
+        "type" :"[ObjectId]",
+        "ref" : "Ordenes"
+        }]
+}

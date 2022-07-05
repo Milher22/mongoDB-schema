@@ -1,0 +1,7 @@
+{
+    "_id" : "ObjectId",
+    "nombre" : "string",
+    "celular" : "int",
+    "email" : "string",
+    "area_id" : "ObjectId"
+}

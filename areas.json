@@ -1,0 +1,9 @@
+{
+    "_id" : "ObjectId",
+    "nombre" : "string",
+    "descripcion" : "string",
+    "empleados" : [{
+        "type" :"[ObjectId]",
+        "ref" : "Empleados"
+        }]
+}

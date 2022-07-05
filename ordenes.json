@@ -1,0 +1,11 @@
+{
+    "_id" : "ObjectId",
+    "fechaOrden" : "string",
+    "estado" : "int",
+    "empleado_id" : "ObjectId",
+    "proveedor_id" : "ObjectId",
+    "items" : [{
+        "type" :"[ObjectId]",
+        "ref" : "Items"
+        }]
+}

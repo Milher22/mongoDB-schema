@@ -1,0 +1,13 @@
+{
+    "_id" : "ObjectId",
+    "nombre" : "string",
+    "descripcion" : "string",
+    "ordenes" : [{
+        "type" :"[ObjectId]",
+        "ref" : "Ordenes"
+        }],
+    "salidas" : [{
+            "type" :"[ObjectId]",
+            "ref" : "Saldas"
+            }]
+}

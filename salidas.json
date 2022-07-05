@@ -1,0 +1,9 @@
+{
+    "_id" : "ObjectId",
+    "fechaSalida" : "string",
+    "detalle" : "string",
+    "items" : [{
+        "type" :"[ObjectId]",
+        "ref" : "Items"
+        }]
+}
