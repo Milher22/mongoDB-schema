@@ -1,7 +1,44 @@
-{
-    "_id" : "ObjectId",
-    "nombre" : "string",
-    "celular" : "int",
-    "email" : "string",
-    "area_id" : "ObjectId"
-}
+[
+    {
+        "_id" : 1,
+        "nombre" : "Jully",
+        "celular" : 956434242,
+        "email" : "jul212@gmail.com",
+        "area_id" : {"_id":1}
+    },
+    {
+        "_id" : 2,
+        "nombre" : "Jack",
+        "celular" : 916414241,
+        "email" : "jaclul312@hotmail.com",
+        "area_id" : {"_id":1}
+    },
+    {
+        "_id" : 3,
+        "nombre" : "Helen",
+        "celular" : 913254646,
+        "email" : "hellen12@outlook.com",
+        "area_id" : {"_id":2}
+    },
+    {
+        "_id" : 4,
+        "nombre" : "Marco",
+        "celular" : 997868684,
+        "email" : "Marcopolo22@gmail.com",
+        "area_id" : {"_id":3}
+    },
+    {
+        "_id" : 5,
+        "nombre" : "Xavier",
+        "celular" : 973654321,
+        "email" : "xavier14@hotmail.es",
+        "area_id" : {"_id":4}
+    },
+    {
+        "_id" : 6,
+        "nombre" : "Carol",
+        "celular" : 923654327,
+        "email" : "Karito21@hotmail.es",
+        "area_id" : {"_id":5}
+    }
+]

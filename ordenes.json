@@ -1,11 +1,59 @@
-{
-    "_id" : "ObjectId",
-    "fechaOrden" : "string",
-    "estado" : "int",
-    "empleado_id" : "ObjectId",
-    "proveedor_id" : "ObjectId",
-    "items" : [{
-        "type" :"[ObjectId]",
-        "ref" : "Items"
-        }]
-}
+[
+    {
+        "_id" : 1,
+        "fechaOrden" : "2020-01-01",
+        "estado" : true,
+        "empleado_id" : 1,
+        "proveedor_id" : 1,
+        "items" : [
+            {"_id":1},
+            {"_id":4},
+            {"_id":5}
+        ]
+    },
+    {
+        "_id" : 2,
+        "fechaOrden" : "2020-01-02",
+        "estado" : true,
+        "empleado_id" : 1,
+        "proveedor_id" : 2,
+        "items" : [
+            {"_id":1},
+            {"_id":2}
+        ]
+    },
+    {
+        "_id" : 3,
+        "fechaOrden" : "2020-01-04",
+        "estado" : true,
+        "empleado_id" : 2,
+        "proveedor_id" : 3,
+        "items" : [
+            {"_id":1},
+            {"_id":2},
+            {"id":3},
+            {"_id":5}
+        ]
+    },
+    {
+        "_id" : 4,
+        "fechaOrden" : "2020-01-07",
+        "estado" : true,
+        "empleado_id" : 4,
+        "proveedor_id" : 4,
+        "items" : [
+            {"_id":1}
+        ]
+    },
+    {
+        "_id" : 5,
+        "fechaOrden" : "2020-01-11",
+        "estado" : true,
+        "empleado_id" : 5,
+        "proveedor_id" : 5,
+        "items" : [
+            {"_id":3},
+            {"_id":5}
+        ]
+    }
+]

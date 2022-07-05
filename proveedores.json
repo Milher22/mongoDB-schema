@@ -1,10 +1,46 @@
-{
-    "_id" : "ObjectId",
-    "nombre" : "string",
-    "celular" : "int",
-    "ubicacion" : "string",
-    "ordenes" : [{
-        "type" :"[ObjectId]",
-        "ref" : "Ordenes"
-        }]
-}
+[
+    {
+        "_id" : 1,
+        "nombre" : "Altiplano",
+        "celular" : 743421,
+        "ubicacion" : "Jr. Huallayco 422",
+        "ordenes" : [{"_id":1}]
+    },
+    {
+        "_id" : 2,
+        "nombre" : "InfoTech",
+        "celular" : 364367,
+        "ubicacion" : "Jr. Dos de Mayo 1231",
+        "ordenes" : [{"_id":2}]
+    },
+    {
+        "_id" : 3,
+        "nombre" : "Promart",
+        "celular" : 486322,
+        "ubicacion" : "Jr. Huallayco 141",
+        "ordenes" : [{"_id":1}]
+    },
+    {
+        "_id" : 4,
+        "nombre" : "Tottus",
+        "celular" : 865754,
+        "ubicacion" : "Malecon cd 10",
+        "ordenes" : [{"_id":4}]
+    },
+    {
+        "_id" : 1,
+        "nombre" : "Megan",
+        "celular" : 743421,
+        "ubicacion" : "Jr. 28 de Julio 117",
+        "ordenes" : [{"_id":5}]
+    },
+    {
+        "_id" : 6,
+        "nombre" : "Beltran",
+        "ubicacion" : "Jr. Crespo Castillo 876"
+    }
+
+
+
+
+]

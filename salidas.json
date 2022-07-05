@@ -1,9 +1,52 @@
-{
-    "_id" : "ObjectId",
-    "fechaSalida" : "string",
-    "detalle" : "string",
-    "items" : [{
-        "type" :"[ObjectId]",
-        "ref" : "Items"
-        }]
-}
+[
+    {
+        "_id" : 1,
+        "fechaSalida" : "2020-02-02",
+        "detalle" : "enviado",
+        "items" : [
+            {"_id":1},
+            {"_id":2},
+            {"_id":3},
+            {"_id":4}
+        ]
+    },
+    {
+        "_id" : 2,
+        "fechaSalida" : "2020-02-04",
+        "detalle" : "enviado",
+        "items" : [
+            {"_id":1},
+            {"_id":2},
+            {"_id":3},
+            {"_id":5}
+        ]
+    },
+    {
+        "_id" : 3,
+        "fechaSalida" : "2020-02-05",
+        "detalle" : "enviado",
+        "items" : [
+            {"_id":1},
+            {"_id":5}
+        ]
+    },
+    {
+        "_id" : 4,
+        "fechaSalida" : "2020-02-07",
+        "detalle" : "enviado",
+        "items" : [
+            {"_id":4}
+        ]
+    },
+    {
+        "_id" : 5,
+        "fechaSalida" : "2020-02-11",
+        "detalle" : "enviado",
+        "items" : [
+            {"_id":2},
+            {"_id":3},
+            {"_id":4},
+            {"_id":5}
+        ]
+    }
+]

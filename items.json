@@ -1,13 +1,72 @@
-{
-    "_id" : "ObjectId",
-    "nombre" : "string",
-    "descripcion" : "string",
-    "ordenes" : [{
-        "type" :"[ObjectId]",
-        "ref" : "Ordenes"
-        }],
-    "salidas" : [{
-            "type" :"[ObjectId]",
-            "ref" : "Saldas"
-            }]
-}
+[
+    {
+        "_id" : 1,
+        "nombre" : "Papel",
+        "descripcion" : "A4 blanco",
+        "ordenes" : [
+            {"_id":1, "cantidad":12, "precio":21.2},
+            {"_id":2, "cantidad":11, "precio":21.2},
+            {"_id":3, "cantidad":2, "precio":21.2},
+            {"_id":4, "cantidad":1, "precio":21.2}
+        ],
+        "salidas" : [
+            {"_id":1, "cantidad":12, "precio":21.2},
+            {"_id":2, "cantidad":11, "precio":21.2},
+            {"_id":3, "cantidad":2, "precio":21.2}
+        ]
+    },
+    {
+        "_id" : 2,
+        "nombre" : "Lapiz",
+        "descripcion" : "B8 Mongol",
+        "ordenes" : [
+            {"_id":2, "cantidad":52, "precio":0.5},
+            {"_id":3, "cantidad":11, "precio":0.5}
+        ],
+        "salidas" : [
+            {"_id":1, "cantidad":12, "precio":0.5},
+            {"_id":2, "cantidad":11, "precio":0.5},
+            {"_id":5, "cantidad":22, "precio":0.5}
+        ]
+    },
+    {
+        "_id" : 3,
+        "nombre" : "Cuaderno",
+        "descripcion" : "A4 cuadriculado",
+        "ordenes" : [
+            {"_id":3, "cantidad":10, "precio":2.5},
+            {"_id":5, "cantidad":5, "precio":2.5}
+        ],
+        "salidas" : [
+            {"_id":1, "cantidad":12, "precio":2.5},
+            {"_id":2, "cantidad":10, "precio":2.5},
+            {"_id":5, "cantidad":2, "precio":2.5}
+        ]
+    },
+    {
+        "_id" : 4,
+        "nombre" : "Mouse",
+        "descripcion" : "inalambrico negro",
+        "ordenes" : [
+            {"_id":1, "cantidad":10, "precio":25.5}
+        ],
+        "salidas" : [
+            {"_id":1, "cantidad":3, "precio":25.5},
+            {"_id":4, "cantidad":4, "precio":25.5},
+            {"_id":5, "cantidad":3, "precio":25.5}
+        ]
+    },
+    {
+        "_id" : 5,
+        "nombre" : "Teclado",
+        "descripcion" : "inalambrico negro",
+        "ordenes" : [
+            {"_id":1, "cantidad":10, "precio":25.5}
+        ],
+        "salidas" : [
+            {"_id":2, "cantidad":3, "precio":25.5},
+            {"_id":3, "cantidad":4, "precio":25.5},
+            {"_id":5, "cantidad":3, "precio":25.5}
+        ]
+    }      
+]

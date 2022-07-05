@@ -1,9 +1,45 @@
-{
-    "_id" : "ObjectId",
-    "nombre" : "string",
-    "descripcion" : "string",
-    "empleados" : [{
-        "type" :"[ObjectId]",
-        "ref" : "Empleados"
-        }]
-}
+[
+    {
+        "_id" : 1,
+        "nombre" : "Administracion",
+        "descripcion" : "first floor",
+        "empleados" : [
+            {"_id":1},
+            {"_id":2}
+        ]
+    },
+    {
+        "_id" : 2,
+        "nombre" : "Ventas",
+        "descripcion" : "second floor",
+        "empleados" : [
+            {"_id":3}
+        ]
+    },
+    {
+        "_id" : 3,
+        "nombre" : "Compras",
+        "descripcion" : "third floor",
+        "empleados" : [
+            {"_id":4}
+        ]
+    },
+    {
+        "_id" : 4,
+        "nombre" : "Informatica",
+        "descripcion" : "fifth floor",
+        "empleados" : [
+            {"_id":5}
+        ]
+    },
+    {
+        "_id" : 5,
+        "nombre" : "Marketing",
+        "descripcion" : "fourth floor",
+        "empleados" : [
+            {"_id":6}
+        ]
+    }
+    
+
+]
